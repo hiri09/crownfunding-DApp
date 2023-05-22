@@ -14,6 +14,8 @@ contract Crowdfunding{
         uint256[] donations;
     }
     
+
+    
     mapping (uint256 => Campaign) public campaigns;
 
     uint256 public no_of_compaigns=0;

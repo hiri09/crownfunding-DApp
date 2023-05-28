@@ -2,12 +2,12 @@
 module.exports = {
   solidity: {
     version: '0.8.9',
-    defaulNetwork:'sepolia',
-    networks:{
-      hardhat:{},
-      sepolia:{
-        URL:'https://rpc.sepolia.org',
-        accounts:[`0x${process.env.PRIVATE_KEY}`],
+    defaultNetwork: 'sepolia',
+    networks: {
+      hardhat: {},
+      sepolia: {
+        url: 'https://rpc.ankr.com/eth_sepolia',
+        accounts: [`0x${process.env.PRIVATE_KEY}`]
       }
     },
     settings: {
